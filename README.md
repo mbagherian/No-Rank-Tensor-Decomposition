@@ -241,12 +241,12 @@ For questions or discussions about this work, please open an issue on GitHub or 
 # The project should include the following files:
 ```text
 no-rank-tensor-decomposition/
-├── .gitignore          ← Plain text file, no extension
-├── README.md           ← Markdown file
-├── requirements.txt    ← Text file
-├── setup.py           ← Python file
-├── LICENSE            ← Text file
-├── main.py            ← Python file
+├── .gitignore          
+├── README.md           
+├── requirements.txt    
+├── setup.py           
+├── LICENSE            
+├── main.py            
 ├── metric_learning/
 │   ├── __init__.py
 │   ├── models.py
