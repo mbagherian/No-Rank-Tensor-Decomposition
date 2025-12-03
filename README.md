@@ -236,3 +236,31 @@ For questions or discussions about this work, please open an issue on GitHub or 
 [GitHub Repository] (https://github.com/mbagherian/No-Rank-Tensor-Decomposition/)
 
 [TensorLy Documentation] (https://tensorly.org/stable/index.html)
+
+
+# The project should include the following files:
+```text
+no-rank-tensor-decomposition/
+├── .gitignore          ← Plain text file, no extension
+├── README.md           ← Markdown file
+├── requirements.txt    ← Text file
+├── setup.py           ← Python file
+├── LICENSE            ← Text file
+├── main.py            ← Python file
+├── metric_learning/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── datasets.py
+│   ├── losses.py
+│   ├── decomposition.py
+│   ├── metrics.py
+│   ├── visualization.py
+│   ├── utils.py
+│   └── main.py
+├── examples/
+│   ├── run_lfw.py
+│   ├── run_olivetti.py
+│   └── compare_methods.py
+└── scripts/
+    └── train.py
+```
