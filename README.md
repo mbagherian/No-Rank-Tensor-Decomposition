@@ -1,12 +1,8 @@
 # No-rank Tensor Decomposition Using Metric Learning
-https://img.shields.io/badge/arXiv-2511.01816-b31b1b.svg
-https://img.shields.io/badge/python-3.8+-blue.svg
-https://img.shields.io/badge/License-MIT-yellow.svg
-https://img.shields.io/badge/PyTorch-%2523EE4C2C.svg?logo=PyTorch&logoColor=white
 
 Official implementation of "No-rank Tensor Decomposition Using Metric Learning" by Maryam Bagherian. This repository contains the code for tensor decomposition framework that replaces traditional reconstruction objectives with discriminative, similarity-based optimization using metric learning.
 
-# 📝 Abstract
+# Abstract
 Tensor decomposition faces fundamental challenges in analyzing high-dimensional data, where traditional methods based on reconstruction and fixed-rank constraints often fail to capture semantically meaningful structures. This paper introduces a no-rank tensor decomposition framework grounded in metric learning, which replaces reconstruction objectives with a discriminative, similarity-based optimization.
 
 The proposed approach learns data-driven embeddings by optimizing a triplet loss with diversity and uniformity regularization, creating a feature space where distance directly reflects semantic similarity. We provide theoretical guarantees for the framework's convergence and establish bounds on its metric properties.
@@ -23,7 +19,7 @@ The proposed approach learns data-driven embeddings by optimizing a triplet loss
 
 - Efficient alternative for domains with limited labeled data
 
-# 📊 Results
+#  Results
 The proposed method demonstrates substantial improvements across diverse domains:
 
 - Domain	Dataset	Improvement over Baselines
@@ -41,7 +37,7 @@ The proposed method demonstrates substantial improvements across diverse domains
 
 - Data efficiency: Achieves superior performance with smaller training datasets compared to transformer-based methods
 
-# 🚀 Quick Start
+#  Quick Start
 Installation
 ```bash
 # Clone the repository
@@ -76,7 +72,7 @@ umap-learn>=0.5.0
 pandas>=1.4.0
 scipy>=1.8.0
 ```
-# 📁 Project Structure
+#  Project Structure
 ```text
 no-rank-tensor-decomposition/
 ├── README.md                          # This file
@@ -91,7 +87,7 @@ no-rank-tensor-decomposition/
     ├── figures/                      # Generated visualizations
     └── metrics/                      # Evaluation results
 ```
-# 🔧 Core Components
+#  Core Components
 1. Metric Learning Model
 ```python
 class FaceMetricLearningModel(nn.Module):
@@ -126,7 +122,7 @@ def compare_tensor_decomposition_methods(original_data, labels, metric_embedding
     - Our Metric Learning approach
     """
 ```
-# 📈 Evaluation Metrics
+#  Evaluation Metrics
 Our framework evaluates across 7 key metrics:
 
 1- Clustering Quality
@@ -153,7 +149,7 @@ Our framework evaluates across 7 key metrics:
 
 - Explained Variance
 
-# 🎯 Usage Examples
+#  Usage Examples
 Example 1: LFW Faces Dataset
 ```python
 from face_metric_learning import EnhancedFaceDataset, main
@@ -175,7 +171,7 @@ from face_metric_learning import OlivettiFaceDataset
 dataset = OlivettiFaceDataset()
 # ... (same training and evaluation pipeline)
 ```
-# 📊 Visualization Outputs
+#  Visualization Outputs
 The code generates comprehensive visualizations:
 
 1- Manifold visualizations of embeddings from different methods
@@ -188,7 +184,7 @@ The code generates comprehensive visualizations:
 
 5- Training loss curves
 
-# 🔬 Key Features
+#  Key Features
 1- No-rank Formulation
 Avoids fixed-rank constraints that limit traditional tensor decomposition
 
@@ -211,7 +207,7 @@ Modular design for easy extension to new domains
 
 Compatible with various neural network architectures
 
-# 📝 Citation
+# Citation
 If you use this code or paper in your research, please cite:
 
 bibtex
@@ -221,16 +217,16 @@ bibtex
   journal={arXiv preprint [arXiv:2511.01816](https://arxiv.org/abs/2511.01816)},
   year={2025}
 }
-# 📄 License
+#  License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-# 🤝 Contributing
+#  Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-# 📧 Contact
+# Contact
 For questions or discussions about this work, please open an issue on GitHub or contact the author.
 
-🔗 Links
+# Links
 [arXiv Paper] (https://arxiv.org/abs/2511.01816)
 
 [GitHub Repository] (https://github.com/mbagherian/No-Rank-Tensor-Decomposition/)
