@@ -210,13 +210,15 @@ Compatible with various neural network architectures
 # Citation
 If you use this code or paper in your research, please cite:
 
-bibtex
+**bibtex**
+```bibtex
 @article{bagherian2025norank,
   title={No-rank Tensor Decomposition Using Metric Learning},
   author={Bagherian, Maryam},
   journal={arXiv preprint [arXiv:2511.01816](https://arxiv.org/abs/2511.01816)},
   year={2025}
 }
+```
 #  License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
