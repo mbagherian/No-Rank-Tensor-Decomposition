@@ -82,7 +82,7 @@ no-rank-tensor-decomposition/
 ├── examples/
 │   ├── lfw_example.py                # LFW dataset example
 │   ├── olivetti_example.py           # Olivetti faces example
-│   └── brain_connectivity.py         # ABIDE dataset example (placeholder)
+│   └── brain_connectivity.py         # ABIDE dataset example (not included in the repository yet)
 └── results/
     ├── figures/                      # Generated visualizations
     └── metrics/                      # Evaluation results
