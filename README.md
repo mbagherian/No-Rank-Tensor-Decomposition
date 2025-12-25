@@ -2,7 +2,7 @@
 
 Official implementation of "No-rank Tensor Decomposition Using Metric Learning" by Maryam Bagherian. This repository contains the code for tensor decomposition framework that replaces traditional reconstruction objectives with discriminative, similarity-based optimization using metric learning.
 
-# Abstract
+# Overview
 Tensor decomposition faces fundamental challenges in analyzing high-dimensional data, where traditional methods based on reconstruction and fixed-rank constraints often fail to capture semantically meaningful structures. This paper introduces a no-rank tensor decomposition framework grounded in metric learning, which replaces reconstruction objectives with a discriminative, similarity-based optimization.
 
 The proposed approach learns data-driven embeddings by optimizing a triplet loss with diversity and uniformity regularization, creating a feature space where distance directly reflects semantic similarity. We provide theoretical guarantees for the framework's convergence and establish bounds on its metric properties.
@@ -24,7 +24,7 @@ The proposed method demonstrates substantial improvements across diverse domains
 
 - Domain	Dataset	Improvement over Baselines
 - Face Recognition	LFW, Olivetti	+15-25% in clustering metrics
-- Brain Connectivity	ABIDE	+20-30% in separation metrics
+- Brain Connectivity	ABIDE	+20-30% in separation metrics (related codes for this dataset will be added shortly)
 - Simulated Data	Galaxy morphology, Crystal structures	+25-35% in semantic alignment
   
 # Key findings:
