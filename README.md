@@ -1,4 +1,4 @@
-# No-rank Tensor Decomposition Using Metric Learning
+# No-rank Tensor Decomposition via Metric Learning
 
 Official implementation of "No-rank Tensor Decomposition Using Metric Learning" by Maryam Bagherian. This repository contains the code for tensor decomposition framework that replaces traditional reconstruction objectives with discriminative, similarity-based optimization using metric learning.
 
