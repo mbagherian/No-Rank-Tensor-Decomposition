@@ -25,7 +25,7 @@ The proposed method demonstrates substantial improvements across diverse domains
 - Domain	Dataset	Improvement over Baselines
 - Face Recognition	LFW, Olivetti	+15-25% in clustering metrics
 - Brain Connectivity	ABIDE	+20-30% in separation metrics (related codes for this dataset will be added shortly)
-- Simulated Data	Galaxy morphology, Crystal structures	+25-35% in semantic alignment
+- Simulated Data	Galaxy morphology, Crystal structures	+25-35% in semantic alignment (data generation code and saved dataset is added)
   
 # Key findings:
 
