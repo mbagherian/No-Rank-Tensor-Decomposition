@@ -1,0 +1,16 @@
+{
+  "dataset": "crystal_structures_synthetic",
+  "created": "20260127_102632",
+  "num_samples": 400,
+  "image_shape": [
+    64,
+    64
+  ],
+  "classes": {
+    "0": "Cubic",
+    "1": "Hexagonal",
+    "2": "Tetragonal",
+    "3": "Orthorhombic"
+  },
+  "synthetic": true
+}
