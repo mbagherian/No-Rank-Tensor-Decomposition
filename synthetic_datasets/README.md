@@ -11,7 +11,6 @@ Please see the script "synthetic_data_generation.ipynb" for more details.
 
 ## Properties
 - Image size: 64×64
-- Grayscale images
 - Automatic labeling
 - No real-world data
 - No copyright restrictions
