@@ -3,6 +3,7 @@
 ## Description
 This directory contains fully synthetic scientific image datasets.
 All data is generated procedurally using mathematical functions.
+Please see the script "synthetic_data_generation.ipynb" for more details.
 
 ## Datasets
 1. Synthetic Galaxy Morphology Dataset
@@ -14,8 +15,3 @@ All data is generated procedurally using mathematical functions.
 - Automatic labeling
 - No real-world data
 - No copyright restrictions
-
-## Intended Use
-- Machine learning experiments
-- Clustering and representation learning
-- Educational and benchmarking purposes
